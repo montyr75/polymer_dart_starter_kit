@@ -1,0 +1,15 @@
+<dom-module id="my-greeting">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+      }
+    </style>
+
+    <h2 class="page-title"><span>{{greeting}}</span></h2>
+    <span class="paper-font-body2">Don't like the greeting? Change it:</span>
+
+    <!-- Listens for "input" event and sets greeting to <input>.value -->
+    <input class="paper-font-body2" value="{{greeting::input}}">
+  </template>
+</dom-module>

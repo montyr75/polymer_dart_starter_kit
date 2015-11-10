@@ -1,0 +1,15 @@
+<dom-module id="my-list">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+
+    <ul>
+      <template is="dom-repeat" items="{{items}}">
+        <li><span class="paper-font-body1">{{item}}</span></li>
+      </template>
+    </ul>
+  </template>
+</dom-module>

@@ -1,0 +1,18 @@
+#############
+## Dart
+#############
+
+build/
+packages/
+.idea/
+pubspec.lock
+.buildlog
+.project
+.pub/
+.project
+*.dart.js
+*.js_
+*.js.deps
+*.js.map
+.packages
+js/
