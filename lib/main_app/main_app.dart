@@ -6,6 +6,8 @@ import 'dart:math';
 
 import '../my_greeting/my_greeting.dart';
 import '../my_list/my_list.dart';
+import '../styles/app_theme.dart';
+import '../styles/shared_styles.dart';
 
 import 'package:polymer_elements/iron_flex_layout.dart';
 import 'package:polymer_elements/iron_icons.dart';
