@@ -65,10 +65,12 @@ class MainApp extends PolymerElement {
     if (panel.narrow) {
       panel.closeDrawer();
     }
+
+    scrollPageToTop();
   }
 
   @reflectable
   void scrollPageToTop([CustomEvent event, Map detail]) {
-    $['mainContainer'].scrollTop = 0;
+    ($['main-panel'] as PaperScrollHeaderPanel).scrollToTop(true);
   }
 }
