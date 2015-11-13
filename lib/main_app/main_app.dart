@@ -9,7 +9,7 @@ import '../my_list/my_list.dart';
 import '../styles/app_theme.dart';
 import '../styles/shared_styles.dart';
 
-import 'package:polymer_elements/iron_flex_layout.dart';
+import 'package:polymer_elements/iron_flex_layout/classes/iron_flex_layout.dart';
 import 'package:polymer_elements/iron_icons.dart';
 import 'package:polymer_elements/iron_icon.dart';
 import 'package:polymer_elements/iron_pages.dart';
