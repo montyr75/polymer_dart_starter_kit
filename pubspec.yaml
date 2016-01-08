@@ -9,7 +9,7 @@ environment:
 
 dependencies:
   browser: ^0.10.0
-  polymer: ^1.0.0-rc.11
+  polymer: ^1.0.0-rc.12
   web_components: ^0.12.0
   polymer_elements: ^1.0.0-rc.5
 
